@@ -1,6 +1,11 @@
 # Python
-Python -  мои проекты для работы
+...
+ПРОВЕРКА ФОРМАТА ВАЛИДНОСТИ ПОЧТЫ
+ПРОВЕРКА СУЩЕСТВОВАНИЯ ПОЧТЫ 
 
-Использую язык питон, чтобы оптимизировать и ускорить свою работу. 
 
-Всем успехов.
+valid = validate_email('__', verify=True)
+print(valid)
+
+valid = validate_email('__', check_mx=True)
+print(valid)
